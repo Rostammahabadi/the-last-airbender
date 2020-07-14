@@ -6,8 +6,8 @@
     <dt>Member Allies:</dt>
     <dd id=<%=member[:name] %>-<%= ally %>><%= ally %></dd>
   <% end %>
+  <dt>Member Enemies:</dt>
   <% member[:enemies].each do |enemy| %>
-    <dt>Member Enemies:</dt>
     <dd id=<%= member[:name]%>-<%= enemy %>><%= enemy %></dd>
     <% end %>
   <dt>Affiliation: <%= member[:affiliation] %></dt>
