@@ -1,15 +1,16 @@
-<h1> Total number of people who live in <%= @nation %></h1>
-<p> <%= @members.length %></p>
+<h1> Total number of people who live in <%= @nation %>: <%= @members.length %></h1>
 <% @members.each do |member| %>
 <dl>
   <dt>Name: <%= member[:name] %></dt>
   <% member[:allies].each do |ally| %>
-    <dd id=<%=member[:name] %>-<%= ally %>>Member Allies: <%= ally %></dd>
+    <dt>Member Allies:</dt>
+    <dd id=<%=member[:name] %>-<%= ally %>><%= ally %></dd>
   <% end %>
   <% member[:enemies].each do |enemy| %>
-    <dd id=<%= member[:name]%>-<%= enemy %>>Member Enemies: <%= enemy %></dd>
+    <dt>Member Enemies:</dt>
+    <dd id=<%= member[:name]%>-<%= enemy %>><%= enemy %></dd>
     <% end %>
-  <dd>Affiliation: <%= member[:affiliation] %></dd>
+  <dt>Affiliation: <%= member[:affiliation] %></dt>
   <dd id=<%= member[:name] %>-img><img alt=<%= member[:name] %> src=<%= member[:photoUrl] %>></dd>
 <% end %>
 </dl>

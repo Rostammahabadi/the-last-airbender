@@ -56,10 +56,10 @@ RSpec.describe "When i visit the homepage" do
 
     click_on "Search For Members"
     within('#Afiko-Fire') do
-      expect(page).to have_content("Member Allies: Fire Nation")
+      expect(page).to have_content("Fire Nation")
     end
     within('#Afiko-Aang') do
-      expect(page).to have_content("Member Enemies: Aang")
+      expect(page).to have_content("Aang")
     end
   end
 end
