@@ -13,7 +13,13 @@ RSpec.describe "When i visit the homepage" do
     click_on "Search For Members"
 
     expect(current_path).to eq('/search')
+  end
+  it "shows total number of people" do
+    visit '/'
 
+    click_on "Search For Members"
+
+    expect(page).to have_content(20)
   end
 
 end
