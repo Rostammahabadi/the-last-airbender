@@ -21,5 +21,6 @@ RSpec.describe "When i visit the homepage" do
 
     expect(page).to have_content(20)
   end
+  it "lists member information" do
 
 end
