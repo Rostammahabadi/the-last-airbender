@@ -1,7 +1,6 @@
 class AirbenderService
   def nation_members(nation)
-    #nation = nation.split("_")
-    params = { affiliation: "#{nation[0]}+#{nation[1]}"}
+    params = { affiliation: "#{nation}"}
     get_json('api/v1/characters', params)
   end
 
@@ -14,7 +13,7 @@ class AirbenderService
   end
 
   def conn
-    Faraday.new(url: 'https://last-airbender-api.herokuapp.com') do |f|
+    Faraday.new(url: 'https://last-airbender-api.herokuapp.com/api/v1/characters') do |f|
       f.adapter Faraday.default_adapter
     end
   end
