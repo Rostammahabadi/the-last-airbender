@@ -1,0 +1,178 @@
+[
+    {
+        "_id": "5cf5679a915ecad153ab68c9",
+        "allies": [
+            "Appa"
+        ],
+        "enemies": [
+            "Azula"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003",
+        "name": "Aang",
+        "affiliation": " Air Acolytes Air Nomads Air Scouts (formerly) Team Avatar"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab68ca",
+        "allies": [
+            "Gyatso"
+        ],
+        "enemies": [
+            "Ozai"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/2/21/Into_The_Inferno_Aang.png/revision/latest?cb=20131009060746",
+        "name": "Aang (games)",
+        "affiliation": " Air Nomads Team Avatar"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab68cb",
+        "allies": [
+            "Kya"
+        ],
+        "enemies": [
+            "Zuko"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/7/79/Pilot_-_Aang.png/revision/latest?cb=20120311133235",
+        "name": "Aang (pilot)",
+        "affiliation": " Air Nomads Team Avatar"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab68ce",
+        "allies": [
+            "Aang"
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/7/79/Air_Nomad_boy.png/revision/latest?cb=20130714154218",
+        "name": "Air Nomad boy",
+        "affiliation": "Air Nomads"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab68d3",
+        "allies": [
+            "His mother"
+        ],
+        "enemies": [
+            "Azula"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/6/65/Appa_flying.png/revision/latest?cb=20140517110636",
+        "name": "Appa",
+        "affiliation": " Air Nomads Team Avatar"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab68d4",
+        "allies": [
+            "Appa"
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/b/be/Appa%27s_mother.png/revision/latest?cb=20130705194428",
+        "name": "Appa's mother",
+        "affiliation": "Air Nomads"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6952",
+        "allies": [
+            "Aang"
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/a/a4/Monk_Gyatso.png/revision/latest?cb=20140103203807",
+        "name": "Gyatso",
+        "affiliation": " Air Nomads Council of Elders"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6a04",
+        "allies": [
+            "Air Nomads",
+            "Monk "
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/e/e5/Pasang.png/revision/latest?cb=20130714161406",
+        "name": "Pasang",
+        "affiliation": " Air Nomads Council of Elders"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6983",
+        "allies": [
+            "Air Nomads"
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/0/05/Jinju.png/revision/latest?cb=20130714155040",
+        "name": "Jinju",
+        "affiliation": "Air Nomads"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6a5e",
+        "allies": [
+            "Air Nomads"
+        ],
+        "enemies": [],
+        "name": "Tang Xu",
+        "affiliation": "Air Nomads"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6972",
+        "allies": [
+            "Air Nomads"
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/8/86/Iio.png/revision/latest?cb=20130705195256",
+        "name": "Iio",
+        "affiliation": " Air Nomads Council of Elders"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab69dd",
+        "allies": [
+            "Aang"
+        ],
+        "enemies": [
+            "Ozai"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/4/43/Inquisitive_Momo.png/revision/latest?cb=20081225191217",
+        "name": "Momo",
+        "affiliation": " Air Nomads Team Avatar"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab69ae",
+        "allies": [
+            "Air Nomads"
+        ],
+        "enemies": [],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/4/48/Laghima.png/revision/latest?cb=20140809130844",
+        "name": "Laghima",
+        "affiliation": "Air Nomads"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6a0c",
+        "allies": [
+            "Yangchen"
+        ],
+        "enemies": [
+            "General "
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/3/39/Pik_and_Pak.png/revision/latest?cb=20161127231831",
+        "name": "Pik and Pak",
+        "affiliation": "Air Nomads"
+    },
+    {
+        "_id": "5cf5679a915ecad153ab6a60",
+        "allies": [
+            "Monk "
+        ],
+        "enemies": [
+            "Fire Nation"
+        ],
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/3/35/Tashi.png/revision/latest?cb=20130714155745",
+        "name": "Tashi",
+        "affiliation": " Air Nomads Council of Elders"
+    }
+]

@@ -4,12 +4,12 @@
 <dl>
   <dt>Name: <%= member[:name] %></dt>
   <% member[:allies].each do |ally| %>
-    <dd>Member Allies: <%= ally %></dd>
+    <dd id=<%=member[:name] %>-<%= ally %>>Member Allies: <%= ally %></dd>
   <% end %>
   <% member[:enemies].each do |enemy| %>
-    <dd>Member Enemies: <%= enemy %></dd>
+    <dd id=<%= member[:name]%>-<%= enemy %>>Member Enemies: <%= enemy %></dd>
     <% end %>
   <dd>Affiliation: <%= member[:affiliation] %></dd>
-  <dd><img alt=<%= member[:name] %> src=<%= member[:photoUrl] %>></dd>
+  <dd id=<%= member[:name] %>-img><img alt=<%= member[:name] %> src=<%= member[:photoUrl] %>></dd>
 <% end %>
 </dl>
