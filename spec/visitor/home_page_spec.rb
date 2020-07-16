@@ -14,7 +14,6 @@ RSpec.describe "When i visit the homepage" do
              headers: {
          	  'Accept'=>'*/*',
          	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-         	  'Authorization'=> "token #{ENV['GITHUB_API_TOKEN_R']}",
          	  'User-Agent'=>'Faraday v1.0.1'
              }).
            to_return(status: 200, body: json_response, headers: {})
@@ -31,7 +30,6 @@ RSpec.describe "When i visit the homepage" do
              headers: {
          	  'Accept'=>'*/*',
          	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-         	  'Authorization'=> "token #{ENV['GITHUB_API_TOKEN_R']}",
          	  'User-Agent'=>'Faraday v1.0.1'
              }).
            to_return(status: 200, body: json_response, headers: {})
@@ -48,7 +46,6 @@ RSpec.describe "When i visit the homepage" do
              headers: {
          	  'Accept'=>'*/*',
          	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-         	  'Authorization'=> "token #{ENV['GITHUB_API_TOKEN_R']}",
          	  'User-Agent'=>'Faraday v1.0.1'
              }).
            to_return(status: 200, body: json_response, headers: {})
